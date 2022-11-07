@@ -15,6 +15,10 @@ Class  Math {
         $this->balance -= $amt;
         return  $this->balance;
     }
+    public function balance(Type $var = null)
+    {
+         echo $this->balance;
+    }
 }
 
 
